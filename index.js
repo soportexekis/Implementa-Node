@@ -44,6 +44,7 @@ const notas = [
     response.writeHead(200,{'Content-Type':'application/json'});
     response.end(JSON.stringify(notas));
 });**/
+/*orto comentario */
 
 app.get('/', (req, resp) => {
   resp.send('<h1>Hello World</>')
